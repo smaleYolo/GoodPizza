@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  justify-content: center;
+
+  b {
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+  }
+}
+
+.page {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin: 0 4px;
+  background: #f9f9f9;
+  color: black;
+  cursor: pointer;
+
+  &:hover {
+    background: #b6b6b6;
+  }
+
+}
+
+.current {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin: 0 4px;
+  background: #282828;
+  color: white;
+  cursor: default;
+}
